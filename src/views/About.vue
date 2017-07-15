@@ -1,19 +1,23 @@
 <template>
-  <section class="content">
-    <cover></cover>
-    <p>Hey, I’m a full stack developer from São Paulo, Brazil.
-      I use web technologies to make applications. A new website is coming up ;)</p>
-    <hr>
-    <ul>
-      <li><a href="mailto:contato@lucianomeireles.io">Email</a></li>
-      <li><a href="https://www.linkedin.com/in/lucianomeireles/" target="blank">LinkedIn</a></li>
-      <li><a href="https://github.com/lucianomeireles" target="blank">Github</a></li>
-    </ul>
+  <section>
+    
+    <div class="content">
+      <cover></cover>
+      <p>Hey, I’m a full stack developer from São Paulo, Brazil.
+        I use web technologies to make applications. A new website is coming up ;)</p>
+      <hr>
+      <ul>
+        <li><a href="mailto:contato@lucianomeireles.io">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/lucianomeireles/" target="blank">LinkedIn</a></li>
+        <li><a href="https://github.com/lucianomeireles" target="blank">Github</a></li>
+      </ul>
+    </div>
   </section>
 </template>
 
 <script>
-import Cover from './About/Cover.vue'
+
+import Cover from './about/Cover.vue'
 export default {
   name: 'about',
   components: {Cover}
