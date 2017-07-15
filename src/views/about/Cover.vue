@@ -17,6 +17,7 @@ export default {
   figure{
     margin: 0 0 50px;
   }  
+  
   img{
     display: block;
     margin: 0;
