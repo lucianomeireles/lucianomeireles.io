@@ -9,7 +9,6 @@
           <h1>Luciano Meireles</h1>
           <h2>Software Developer</h2>
         </div>
-
       </div>
       <div class="menu-trigger">
         <button type="button" @click="toogleMenu">
@@ -17,10 +16,6 @@
         </button>
       </div>
 
-       <!-- <ul>
-        <li><router-link :to="'/home'">Home</router-link></li>
-        <li><router-link :to="'/about'">About</router-link></li>
-      </ul>  -->
     </header>
   </div>    
 </template>
@@ -28,20 +23,18 @@
 <script>
 export default {
   name: 'appHeader',
-  data() {
-    return {
-      menuOpened: false
-    }
+  props:{
+    menuOpened: Boolean
   },
   computed: {
     menuIcon(){
-      return this.menuOpened ? '/src/assets/menu-icon.svg' : 
-                              '/src/assets/menu-close.svg'
+      return this.menuOpened ? '/src/assets/menu-close.svg' : 
+                              '/src/assets/menu-icon.svg'
     }
   },
   methods:{
     toogleMenu(){
-      this.menuOpened = !this.menuOpened
+      this.$emit('toogleMenu')
     }
   }
 }
@@ -117,7 +110,7 @@ export default {
     padding: 0;
     cursor: pointer;
     display: block;
-    margin-right: 2rem;
+    margin-right: 20px;
     outline: 0;
   }
   .menu-trigger button img{
