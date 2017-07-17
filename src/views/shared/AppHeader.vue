@@ -94,7 +94,7 @@ export default {
   .menu-trigger{
     box-sizing: border-box;
     box-flex: 0;
-    flex: 0 0 20%;
+    flex: 0 0 15%;
     display: flex;
     box-pack: end;
     justify-content: flex-end;
@@ -110,7 +110,7 @@ export default {
     padding: 0;
     cursor: pointer;
     display: block;
-    margin-right: 20px;
+    margin-right: 5px;
     outline: 0;
   }
   .menu-trigger button img{
