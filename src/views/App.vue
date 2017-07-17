@@ -1,17 +1,19 @@
 <template>
   <div class="app" :class="{'menu-open': this.menuOpened}">
     <app-header :menuOpened="menuOpened" @toogleMenu="toogleMenu"></app-header>
-    <app-menu v-if="menuOpened" @toogleMenu="toogleMenu"></app-menu>
+    <app-menu @toogleMenu="toogleMenu"></app-menu>
     <router-view></router-view>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import AppHeader from './shared/AppHeader.vue'
 import AppMenu from './shared/AppMenu.vue'
+import AppFooter from './shared/AppFooter.vue'
 export default {
   name: 'App',
-  components: {AppHeader, AppMenu},
+  components: {AppHeader, AppMenu, AppFooter},
   data(){
     return{
       menuOpened: false

@@ -1,6 +1,6 @@
 <template>
   <figure>
-    <img width="800" height="300" src="/src/assets/ibirapuera.jpg" alt="Parque Ibirapuera">
+    <img height="300" src="/src/assets/ibirapuera.jpg" alt="Parque Ibirapuera">
     <figcaption>
       Ibirapuera Park, São Paulo
     </figcaption>
