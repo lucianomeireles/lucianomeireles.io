@@ -1,27 +1,17 @@
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import VueResource from 'vue-resource'
+import App from './App'
+import router from './router'
 
-Vue.use(VueRouter, VueResource)
+import './assets/css/site.css'
 
-// import FontAwesome from 'font-awesome'
-// import 'font-awesome/css/font-awesome.css' 
+Vue.config.productionTip = false
 
-import App from './views/App.vue'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-
-
-// Vue.use(FontAwesome)
-
-const routes = [
-  { path: '/', redirect: '/about' },
-  { path: '/home', component: Home },
-  { path: '/about', component: About }
-]
-const router = new VueRouter({ routes, mode: 'history' })
+/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  render: h => h(App)
+  template: '<App/>',
+  components: { App }
 })

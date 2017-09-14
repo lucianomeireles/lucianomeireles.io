@@ -3,7 +3,7 @@
     <header>
       <div class="logo-container">
         <div class="logo-img">
-          <img src="/src/assets/Portrait.jpg" alt="Luciano Meireles Portrait">
+          <img src="/static/Portrait.jpg" alt="Luciano Meireles Portrait">
         </div>
         <div class="logo-title">
           <h1>Luciano Meireles</h1>
@@ -28,8 +28,8 @@ export default {
   },
   computed: {
     menuIcon(){
-      return this.menuOpened ? '/src/assets/menu-close.svg' : 
-                              '/src/assets/menu-icon.svg'
+      return this.menuOpened ? '/static/menu-close.svg' : 
+                              '/static/menu-icon.svg'
     }
   },
   methods:{
