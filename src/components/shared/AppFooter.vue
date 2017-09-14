@@ -17,7 +17,6 @@ export default {
 
 <style scoped>
   footer{
-    width: 800px;
     max-width: 800px;
     margin: 0 auto;
   }

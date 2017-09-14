@@ -1,6 +1,6 @@
 <template>
   <figure>
-    <img height="300" src="/src/assets/ibirapuera.jpg" alt="Parque Ibirapuera">
+    <img src="/static/ibirapuera.jpg" alt="Parque Ibirapuera">
     <figcaption>
       Ibirapuera Park, São Paulo
     </figcaption>
@@ -21,6 +21,8 @@ export default {
   img{
     display: block;
     margin: 0;
+    max-height: 300px;
+    width: 100%;
   }
   figcaption{
     font-size: 12px;
