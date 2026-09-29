@@ -4,10 +4,7 @@ export const en: ContentDictionary = {
   episodeLine: "EPISODE I",
   title: "A NEW CHAPTER",
   paragraphs: [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Curabitur pretium tincidunt lacus. Nulla facilisi. Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue.",
-    "Integer ac leo. Pellentesque imperdiet, erat eu aliquam dapibus, lorem urna dictum urna, at ullamcorper metus urna eu eros. Phasellus fermentum in dolor sit amet facilisis.",
+    "I have over 20 years of experience in technology. I started with .NET and SQL Server, moved through Ruby, Vue and MongoDB, and in recent years have built web and mobile products with React, React Native, Next.js and TypeScript, almost always on remote teams for US companies, many of them in healthcare. Today I lead AI-driven development initiatives: I help teams apply artificial intelligence to planning, implementation, code review and testing, and I build AI products from the ground up as Chief Engineer at a health-tech startup.",
   ],
   links: {
     email: "Email",

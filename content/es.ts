@@ -4,10 +4,7 @@ export const es: ContentDictionary = {
   episodeLine: "EPISODIO I",
   title: "UN NUEVO CAPÍTULO",
   paragraphs: [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Curabitur pretium tincidunt lacus. Nulla facilisi. Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue.",
-    "Integer ac leo. Pellentesque imperdiet, erat eu aliquam dapibus, lorem urna dictum urna, at ullamcorper metus urna eu eros. Phasellus fermentum in dolor sit amet facilisis.",
+    "Tengo más de 20 años de experiencia en tecnología. Empecé con .NET y SQL Server, pasé por Ruby, Vue y MongoDB, y en los últimos años he construido productos web y móviles con React, React Native, Next.js y TypeScript, casi siempre en equipos remotos de empresas estadounidenses, muchas de ellas del sector salud. Hoy lidero iniciativas de desarrollo con IA: ayudo a equipos a aplicar inteligencia artificial a la planificación, la implementación, la revisión de código y las pruebas, y construyo productos de IA desde cero como Chief Engineer en una startup de salud.",
   ],
   links: {
     email: "Correo",
